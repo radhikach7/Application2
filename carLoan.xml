@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="Camount" value="30000"></parameter>
+	    <parameter name="Cint" value="8"></parameter>
+	      <parameter name="Cterm" value="5"></parameter>
+    <classes>
+      <class name="Loans.Application.CarloanTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
